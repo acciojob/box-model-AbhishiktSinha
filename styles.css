@@ -1,1 +1,32 @@
 /*  your css code here. If applicable */
+.container{
+	background-color: grey;
+	padding-inline: 10%;
+	padding-block: 10%;
+	border: 1px solid black;
+	border-radius: 24px;
+
+	width: 40%;
+	min-width: fit-content;
+	white-space: nowrap;
+
+	text-align: center;
+	.circle{
+		width: 70px;
+		aspect-ratio: 1/1;
+		border-radius: 50%;
+
+		display: inline-block;
+
+		margin-inline: 1%;
+	}
+	:nth-child(1){
+		background-color: green;
+	}
+	:nth-child(2){
+		background-color: yellow;
+	}
+	:nth-child(3){
+		background-color: red;
+	}
+}
