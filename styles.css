@@ -1,9 +1,9 @@
 /*  your css code here. If applicable */
 .container{
-	background-color: grey;
+	background-color: #cecece;
 	padding-inline: 10%;
 	padding-block: 10%;
-	border: 1px solid black;
+	border: 3px solid black;
 	border-radius: 24px;
 
 	width: 40%;
@@ -20,13 +20,13 @@
 
 		margin-inline: 1%;
 	}
-	:nth-child(1){
+	:nth-child(1), .green{
 		background-color: green;
 	}
-	:nth-child(2){
+	:nth-child(2), .yellow{
 		background-color: yellow;
 	}
-	:nth-child(3){
+	:nth-child(3), .red{
 		background-color: red;
 	}
 }
