@@ -20,13 +20,13 @@
 
 		margin-inline: 1%;
 	}
-	:nth-child(1), .green{
+	.green{
 		background-color: green;
 	}
-	:nth-child(2), .yellow{
+	.yellow{
 		background-color: yellow;
 	}
-	:nth-child(3), .red{
+	.red{
 		background-color: red;
 	}
 }
